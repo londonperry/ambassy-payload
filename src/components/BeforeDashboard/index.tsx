@@ -10,7 +10,7 @@ const BeforeDashboard: React.FC = () => {
 		<div className={baseClass}>
 			<Banner type="success">
 				<Check />
-				<strong>Lets Get This Bread💰</strong>
+				<strong>Let's Get This Bread💰</strong>
 			</Banner>
 		</div>
 	);

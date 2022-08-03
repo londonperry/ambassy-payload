@@ -9,13 +9,13 @@ const Media: CollectionConfig = {
     read: () => true,
 
     // access is limited for demo purposes, remove to restore upload capability
-    create: () => false,
-    update: () => false,
-    delete: () => false,
+    create: () => true,
+    update: () => true,
+    delete: () => true,
   },
   admin: {
     useAsTitle: 'filename',
-    description: 'Uploads are set to read-only for this demo.',
+    description: 'Drop it like its hot',
   },
 
   // file uploads are stored on the server by default, plugins are available for cloud storage
