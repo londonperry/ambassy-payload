@@ -86,7 +86,6 @@ export const Content: Block = {
               'indent',
               'relationship',
               'upload',
-              Video,
               HR,
             ],
           },
