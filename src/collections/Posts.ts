@@ -3,7 +3,7 @@ import { CollectionConfig } from 'payload/types';
 const Posts: CollectionConfig = {
   slug: 'posts',
   admin: {
-    defaultColumns: ['title', 'author', 'category', 'tags', 'status'],
+    defaultColumns: ['title', 'author', 'category', 'status'],
     useAsTitle: 'title',
   },
   access: {
@@ -27,12 +27,6 @@ const Posts: CollectionConfig = {
       name: 'category',
       type: 'relationship',
       relationTo: 'categories'
-    },
-    {
-      name: 'tags',
-      type: 'relationship',
-      relationTo: 'tags',
-      hasMany: true,
     },
     {
       name: 'content',
